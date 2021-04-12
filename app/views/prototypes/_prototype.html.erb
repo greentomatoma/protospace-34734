@@ -4,7 +4,7 @@
 
   <div class="card__body">
     <%# タイトルの表示 %>
-    <%= link_to prototype.title, root_path, class: :card__title %>
+    <%= link_to prototype.title, prototype_path(prototype.id), class: :card__title %>
     <%# キャッチコピーの表示 %>
     <p class="card__summary">
       <%= prototype.catch_copy %>
